@@ -1,0 +1,45 @@
+html, body{
+  padding: 0px;
+  margin: 0px;
+  background: #F0FFF0;
+  /*background-image: url('../img/home.jpg');*/
+}
+i.fa{
+  font-size: 80px;
+}
+a.contents__twitter{
+  color: #55acee;
+}
+a.contents__github{
+  color: black;
+}
+a.contents__fb{
+  color: #315096;
+}
+.main, .contents__detail, .contents {
+  width: 100%;
+}
+.main{
+  padding-top: 160px;
+}
+.main .main__icon, .contents__detail .contents__detail__word, .contents{
+  width: 50%;
+  /*border: 1px solid #FF0000;*/
+  margin: 0 auto;
+}
+.contents__detail__word{
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+li{
+  display: inline-block;
+  list-style: none;
+  padding: 30px;
+}
+.contents__main, .contents__detail__word{
+  padding-top: 18px;
+}
+.end, .contents__main{
+  text-align: center;
+}
